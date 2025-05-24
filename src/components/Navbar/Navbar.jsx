@@ -24,10 +24,13 @@ const Navbar = () => {
         <nav
             className='z-nav fixed w-full flex justify-between items-center text-primary-white bg-transparent backdrop-blur-2xl sm:px-8 sm:py-4 p-4'>
             <div className='flex justify-start items-center'>
-                <img
+                {/* <img
                     src={images.gericht}
                     alt="app logo"
-                    className="h-auto w-24 sm:w-40 2xl:w-52"/>
+                    className="h-auto w-24 sm:w-40 2xl:w-52"/> */}
+                    <span className="ml-4 text-3xl sm:text-4xl 2xl:text-5xl font-bold font-CormorantUpright text-primary-golden tracking-wide">
+                        United Chicken Kingdom
+                    </span>
             </div>
             <ul className='lg:flex hidden justify-center items-center flex-1 duration-300 gap-2'>
                 <li
@@ -55,11 +58,11 @@ const Navbar = () => {
             {/*=========== Login Button ============*/}
 
             <div className="sm:flex hidden justify-end items-center">
-                <a href='#login' className='my-0 mx-1 no-underline hover:text-primary-gray'>Log In / Register</a>
-                <div className="line"/>
+                {/* <a href='#login' className='my-0 mx-1 no-underline hover:text-primary-gray'>Log In / Register</a>
+                <div className="line"/> */}
                 <a
                     href="/"
-                    className='my-0 mx-1 no-underline duration-150 hover:text-primary-gray'>Book Table</a>
+                    className='my-0 mx-1 no-underline duration-150 hover:text-primary-gray'>Book An Experience</a>
             </div>
 
             {/*================ Mobile Navigation ================*/}
