@@ -1,5 +1,5 @@
 {
-  "name": "watch-wesbite",
+  "name": "united-chicken-kingdom-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,5 +44,5 @@
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4"
   },
-  "homepage": "https://jaydev25.github.io/united-chicken-kingdom-website"
+  "homepage": "https://jaydev25.github.io/united-chicken-kingdom-website/"
 }
