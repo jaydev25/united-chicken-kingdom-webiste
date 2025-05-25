@@ -11,7 +11,7 @@ const App = () => (
     <Navbar />
     <Routes>
       <Route
-        path="/"
+        path="/united-chicken-kingdom-website"
         element={
           <>
             <Header />

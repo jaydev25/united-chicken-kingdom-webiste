@@ -19,10 +19,8 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo flex-one my-8 mx-0 xl:m-4 text-left lg:text-center">
-        {/* <img src={images.gericht} alt="footer_logo" className='w-4/5 mobile:w-[210px] mb-3 lg:mx-auto'/> */}
-        <span className="text-3xl sm:text-4xl 2xl:text-5xl font-bold font-CormorantUpright text-primary-golden tracking-wide">
-          United Chicken Kingdom
-        </span>        <p className="p__opensans lg:text-center text-left">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
+        <img src={images.logo} alt="footer_logo" className='w-4/5 mobile:w-[210px] mb-3 lg:mx-auto'/>
+        <p className="p__opensans lg:text-center text-left">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
         <img src={images.spoon} className="spoon__img lg:mx-auto" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons mt-2 flex flex-row lg:justify-center">
           <FiFacebook className='text-primary-white m-2 text-2xl cursor-pointer hover:text-primary-golden' />
