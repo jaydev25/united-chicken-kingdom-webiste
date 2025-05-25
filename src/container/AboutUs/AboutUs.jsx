@@ -5,7 +5,7 @@ import './AboutUs.css';
 
 const AboutUs = () => (
   <div className="relative app__bg flex__center section__padding" id="about">
-    <div className="absolute inset-0 flex__center">
+    <div className="absolute inset-0 flex__center" style={{ opacity: 0.2 }}>
       <img src={images.G} alt="G_overlay" className='z-0 h-1/4 sm:h-2/6 lg:w-96 lg:h-96' />
     </div>
 

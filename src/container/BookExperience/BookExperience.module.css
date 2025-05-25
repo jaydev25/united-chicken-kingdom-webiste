@@ -1,0 +1,150 @@
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.z0 {
+  z-index: 0;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+.flex__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__padding {
+  padding: 4rem 2rem;
+}
+
+.app__bg {
+  background: #0c0c0c; /* Match your theme's dark background */
+}
+
+.headtext__cormorant {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 0.04em;
+}
+
+.spoon__img {
+  margin-top: 1rem;
+  width: 45px;
+}
+
+.p__opensans {
+  font-family: 'Open Sans', sans-serif;
+  color: #aaa;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.text-primary-gray {
+  color: #aaa;
+}
+
+.custom__button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 2.5rem;
+  background: #dcca87;
+  color: #0c0c0c;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.custom__button:hover {
+  background: #fff;
+  color: #dcca87;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.lg\:my-8 {
+  /* For large screens, override margin */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.lg\:mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.lg\:rotate-0 {
+  /* No rotation on large screens */
+  transform: none;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.h-80vwh {
+  height: 80vw;
+  max-height: 400px;
+}
+
+.lg\:h-screen {
+  height: 100vh;
+}
+
+@media (min-width: 1536px) {
+  .\32 xl\:h-70vh {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .flex-col {
+    flex-direction: row;
+  }
+  .lg\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .lg\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .lg\:rotate-0 {
+    transform: none;
+  }
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+  .lg\:h-screen {
+    height: 100vh;
+  }
+}

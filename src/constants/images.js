@@ -7,6 +7,7 @@ import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
 import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
+import logo_h from '../assets/logo_h.png';
 import menu from '../assets/menu.png';
 import menu2 from '../assets/menu-2.png';
 import overlaybg from '../assets/overlaybg.png';
@@ -32,6 +33,7 @@ export default {
   gallery04,
   knife,
   logo,
+  logo_h,
   menu,
   menu2,
   overlaybg,
